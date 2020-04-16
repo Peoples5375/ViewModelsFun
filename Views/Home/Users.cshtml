@@ -1,0 +1,7 @@
+@using ViewwModels.Models
+@model List<User>
+
+    @foreach(var peep in Model)
+    {
+        <h1>@peep.FirstName @peep.LastName</h1>
+    }
